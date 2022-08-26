@@ -3,9 +3,9 @@ html {
 }
 
 body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
+    background: url('/media/leopardnight_image.jpg') no-repeat center center fixed;
     background-size: cover;
-    background-color: yellow;
+    background-color: whitesmoke;
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Montserrat';
@@ -29,8 +29,8 @@ body {
 }
 
 .explore-button {
-    background: black;
-    color: white;
+    background: whitesmoke;
+    color: black;
     min-width: 260px;
 }
 
