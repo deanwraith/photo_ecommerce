@@ -5,8 +5,8 @@
                 Prints
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="{% url 'products' %}" class="dropdown-item">Colour</a>
-                <a href="{% url 'products' %}" class="dropdown-item ">Black &amp; White</a>
+                <a href="{% url 'products' %}?category=colour" class="dropdown-item">Colour</a>
+                <a href="{% url 'products' %}?category=bw" class="dropdown-item ">Black &amp; White</a>
             </div>
         </li>
 
@@ -15,8 +15,8 @@
                 Limited Edition
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Colour</a>
-                <a href="" class="dropdown-item">Black &amp; White</a>
+                <a href="{% url 'products' %}?category=colourltd" class="dropdown-item">Colour</a>
+                <a href="{% url 'products' %}?category=bwltd" class="dropdown-item">Black &amp; White</a>
             </div>
         </li>
 
